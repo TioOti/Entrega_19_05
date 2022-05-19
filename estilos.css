@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+
+body{
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+/*================ HEADER =========================*/
+
+.navbar-brand img{
+	width: 90px;
+	border-radius: 90px;
+}
+
+
+/*================ BANNER PRESENTACION =========================*/
+#banner img{
+	width: 500px;
+}
+/*================ CAROUSEL =========================*/
+.carousel-item{
+	max-height: 800px;	
+	max-width: 800px;
+}
+
+
+/*================STAFF CARDS=========================*/
+
+
+/*<!--===========================================================================-->
+<!--========== FOOTER ====================================-->
+<!--===========================================================================--> */
+footer{
+	text-align: center;
+}
+#iconos i{
+	font-size: 2rem;
+	padding: 0 1rem;
+	color: #fafafa;
+}
+
+
+/*<!--===========================================================================-->
+<!--========== MEDIA-Q ====================================-->
+<!--===========================================================================--> */
+@media all and (max-width: 400px){
+	.navbar-brand img{
+	width: 40px;
+	}
+}
+@media all and (max-width: 320px){
+}
+
+@media all and (max-width: 576px){
+	.navbar-brand img{
+	width: 65px;
+	}
+	#header .navbar .container-fluid .span{
+	font-size: .5rem !important;
+	}
+}
+@media all and (max-width: 768px){
+}
+@media all and (max-width: 992px){
+	.card{
+	max-width: 540px;
+	}	
+}
+@media all and (max-width: 1200px){
+}
+
+/*<!--===========================================================================-->
+<!--========== HOVER ====================================-->
+<!--===========================================================================--> */
+	header nav ul li:hover{	
+	background-color: white;
+	border: 1px black solid;
+	font-weight: 700;
+	border-radius: 20px;
+	margin-right: 10px ;
+	color: whitesmoke;
+}
+	#iconos i:hover{
+	color: cyan;
+}
